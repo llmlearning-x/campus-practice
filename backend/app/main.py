@@ -84,7 +84,7 @@ def seed_database() -> None:
                 """,
                 (
                     "系统管理员",
-                    "admin@ca.mpus.example",
+                    "admin@campus.example",
                     hash_password("admin123"),
                     utc_now(),
                 ),
